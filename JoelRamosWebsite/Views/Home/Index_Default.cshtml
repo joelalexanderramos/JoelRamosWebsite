@@ -2,21 +2,25 @@
     ViewBag.Title = "Home Page";
 }
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Joel Ramos Consulting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Old+Standard+TT" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/Content/jQuery.lightninBox.css">
-    <link rel="stylesheet" href="/Content/aos.css">
-    <link rel="stylesheet" type="text/css" href="/Content/style.css">
+    <link rel="stylesheet" href="~/Content/jQuery.lightninBox.css">
+    <link rel="stylesheet" href="~/Content/aos.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/style.css">
 </head>
 
+<body>
     <header class="d-flex flex-column flex-md-row align-items-center">
         <div class="container">
-            <a href="/Content/index.html" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 Joel Ramos Consulting.
             </a>
             <nav class="navbar navbar-expand-lg navbar-light right">
@@ -63,19 +67,19 @@
     <section class="features-sec">
         <div class="main-container">
             <ul>
-                <li class="aos-item" data-aos="fade-right" data-aos-duration="1200" style="background: url('/Content/images/quality.jpg')no-repeat 0 0;">
+                <li class="aos-item" data-aos="fade-right" data-aos-duration="1200" style="background: url('./images/quality.jpg')no-repeat 0 0;">
                     <div class="content">
                         <h3>Quality.</h3>
                         <h6>Our main goal is to provide you a perfect deliverable based on your needs, understanding you and thinking solutions.</h6>
                     </div>
                 </li>
-                <li class="aos-item active" data-aos="fade-up" data-aos-duration="1200" class="active" style="background:url('/Content/images/affordable.jpg')no-repeat 0 0;">
+                <li class="aos-item active" data-aos="fade-up" data-aos-duration="1200" class="active" style="background:url('./images/affordable.jpg')no-repeat 0 0;">
                     <div class="content">
                         <h3>Affordable.</h3>
                         <h6>Don't be affraid of paying a lot of money on your project.</h6>
                     </div>
                 </li>
-                <li class="aos-item" data-aos="fade-left" data-aos-duration="1200" style="background:url('/Content/images/on-time.jpg')no-repeat 0 0;">
+                <li class="aos-item" data-aos="fade-left" data-aos-duration="1200" style="background:url('./images/on-time.jpg')no-repeat 0 0;">
                     <div class="content">
                         <h3>OnTime.</h3>
                         <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and...</h6>
@@ -134,7 +138,7 @@
     <section class="about-sec mb-100">
         <div class="main-container">
             <div class="row">
-                <div class="col-md-6  col-sm-12 picture" style="background:url('/Content/images/profile-photo.jpg')no-repeat 0 0;">
+                <div class="col-md-6  col-sm-12 picture" style="background:url('./images/profile-photo.jpg')no-repeat 0 0;">
                     <div class="content">
                         <h2 class="aos-item" data-aos="fade-up" data-aos-duration="800">who i am<span>.</span></h2>
                         <h6 class="aos-item" data-aos="fade-up" data-aos-duration="1000">
@@ -251,41 +255,43 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="product aos-item" data-aos="fade-up" data-aos-duration="800">
-                                    <a href="/Content/images/p6l.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p1.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
-                                    <a href="/Content/images/p2.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p2.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
-                                    <a href="/Content/images/p6l.jpg" class="lightninBox" data-lb-group="1">
-                                        <img src="/Content/images/p3.jpg" alt="" />
+                                    <a href="images/p6l.jpg" class="lightninBox" data-lb-group="1">
+                                        <img src="images/p1.jpg" alt="" />
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
-                                    <a href="/Content/images/p2.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p2.jpg" alt="" /></a>
+                                    <a href="images/p2.jpg" class="lightninBox" data-lb-group="1"><img src="images/p2.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
+                                    <a href="images/p6l.jpg" class="lightninBox" data-lb-group="1">
+                                        <img src="images/p3.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
+                                    <a href="images/p2.jpg" class="lightninBox" data-lb-group="1"><img src="images/p2.jpg" alt="" /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <div class="product aos-item" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="/Content/images/p5.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p5.jpg" alt="" /></a>
+                            <a href="images/p5.jpg" class="lightninBox" data-lb-group="1"><img src="images/p5.jpg" alt="" /></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="product aos-item" data-aos="fade-up" data-aos-duration="1200">
-                            <a href="/Content/images/p7l.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p7l.jpg" alt="" /></a>
+                            <a href="images/p7l.jpg" class="lightninBox" data-lb-group="1"><img src="images/p7l.jpg" alt="" /></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="product aos-item" data-aos="fade-up" data-aos-duration="1400">
-                            <a href="/Content/images/p6l.jpg" class="lightninBox" data-lb-group="1"><img src="/Content/images/p6l.jpg" alt="" /></a>
+                            <a href="images/p6l.jpg" class="lightninBox" data-lb-group="1"><img src="images/p6l.jpg" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -396,12 +402,12 @@
             </div>-->
         </div>
     </footer>
-    <script type="text/javascript" src="/Scripts/jquery.js"></script>
-    <script type="text/javascript" src="/Scripts/bootstrap.min.js">
+    <script type="text/javascript" src="~/Scripts/jquery.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js">
     </script>
-    <script src="/Scripts/jQuery.lightninBox.min.js"></script>
-    <script src="/Scripts/aos.js"></script>
-    <script type="text/javascript" src="/Scripts/custom.js"></script>
+    <script src="~/Scripts/jQuery.lightninBox.min.js"></script>
+    <script src="~/Scripts/aos.js"></script>
+    <script type="text/javascript" src="~/Scripts/custom.js"></script>
     <script type="text/javascript">
     $(".lightninBox").lightninBox();
     </script>
@@ -410,3 +416,6 @@
     //     easing: 'ease-in-out-sine'
     //   });
     // </script> -->
+</body>
+
+</html>

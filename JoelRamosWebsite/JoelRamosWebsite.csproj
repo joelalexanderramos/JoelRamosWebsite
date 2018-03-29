@@ -149,21 +149,53 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\aos.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\about.jpg" />
+    <Content Include="Content\images\affordable.jpg" />
+    <Content Include="Content\images\close.png" />
+    <Content Include="Content\images\contact-bg.jpg" />
+    <Content Include="Content\images\header-banner.jpg" />
+    <Content Include="Content\images\loader.gif" />
+    <Content Include="Content\images\next.png" />
+    <Content Include="Content\images\on-time.jpg" />
+    <Content Include="Content\images\p1-l.jpg" />
+    <Content Include="Content\images\p1.jpg" />
+    <Content Include="Content\images\p2-l.jpg" />
+    <Content Include="Content\images\p2.jpg" />
+    <Content Include="Content\images\p3-l.jpg" />
+    <Content Include="Content\images\p3.jpg" />
+    <Content Include="Content\images\p4.jpg" />
+    <Content Include="Content\images\p5-l.jpg" />
+    <Content Include="Content\images\p5.jpg" />
+    <Content Include="Content\images\p6l.jpg" />
+    <Content Include="Content\images\p7l.jpg" />
+    <Content Include="Content\images\prev.png" />
+    <Content Include="Content\images\profile-photo.jpg" />
+    <Content Include="Content\images\quality.jpg" />
+    <Content Include="Content\images\what-do-bg.jpg" />
+    <Content Include="Content\index.html" />
+    <Content Include="Content\jQuery.lightninBox.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jQuery.lightninBox.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -184,6 +216,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index_Default.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
