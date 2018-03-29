@@ -179,6 +179,12 @@
     <Content Include="Content\index.html" />
     <Content Include="Content\jQuery.lightninBox.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\Theme\about.html" />
+    <Content Include="Content\Theme\blog-single.html" />
+    <Content Include="Content\Theme\blog.html" />
+    <Content Include="Content\Theme\contact.html" />
+    <Content Include="Content\Theme\index.html" />
+    <Content Include="Content\Theme\portipolio.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
